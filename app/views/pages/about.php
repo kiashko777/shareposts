@@ -1,0 +1,11 @@
+<?php require APPROOT . '/views/includes/header.php' ?>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">
+    <h1><?php echo $data['title']; ?></h1>
+    <p class="lead"><?php echo $data['description']; ?></p>
+    <p>Version: <?php echo APPVERSION; ?></p>
+  </div>
+</div>
+
+<?php require APPROOT . '/views/includes/footer.php' ?>
