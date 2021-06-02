@@ -1,9 +1,8 @@
 <?php require APPROOT . '/views/includes/header.php'; ?>
-A
 <a href="<?php echo URLROOT; ?>/posts" class="btn btn-light"><i class="fa fa-backward"></i> Back</a>
 <h1><?php echo $data['post']->title; ?></h1>
 <div class="bg-success text-white p-2 mb-3">
-  Written by <?php echo $data['user']->name; ?> on <?php echo $data['post']->created_at; ?>
+  Written by <?=$data['user']->$name; ?> on <?=$data['post']->created_at; ?>
 </div>
 <p><?php echo $data['post']->body; ?></p>
 
